@@ -9,16 +9,18 @@
         position: -webkit-sticky;
       }
       
-      .navigationBar .logo{
+      .navigationBar a.logo{
+          padding: 10px;
+          text-align: center;
           float: left;
       }
 
-      .navigationBar a {
+      .navigationBar a:not(.logo) {
         color: #eecccc;
         padding: 10px;
-        float: right;
         text-align: center;
         text-decoration: none;
+        float: right;
       }
 
       .navigationBar a:hover:not(.logo) {
