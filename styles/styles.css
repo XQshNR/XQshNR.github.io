@@ -21,7 +21,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   animation:
-    typing 5s steps(30, end),
+    typing 5s steps(30),
     cursor 1s step-end infinite;
 }
 
@@ -62,11 +62,12 @@ body {
 }
 
 .navigationBar a.navigationBarLogo img {
-  width: 10%;
+  max-width: auto;
+  max-height: 70px;
 }
 
 .navigationBar a:not(.navigationBarLogo) {
-  color: #eecccc;
+  color: #aa0000;
   font-size: 20px;
   text-align: center;
   text-decoration: none;
@@ -76,4 +77,9 @@ body {
 
 .navigationBar a:hover:not(.navigationBarLogo) {
   background-color: #660000;
+  color: #eecccc;
+}
+
+#home .home, #projects .projects, #aboutMe .aboutMe{
+  color: #eecccc;
 }
