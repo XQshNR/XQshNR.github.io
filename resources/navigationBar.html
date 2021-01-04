@@ -1,4 +1,4 @@
-<!-- <style>
+<style>
     .navigationBar {
         background-color: #440000;
         width: 100%;
@@ -8,6 +8,10 @@
         position: -webkit-sticky;
       }
       
+      .navigationBar .logo{
+          float: left;
+      }
+
       .navigationBar a {
         color: #eecccc;
         padding: 10px;
@@ -16,14 +20,14 @@
         text-decoration: none;
       }
 
-      .navigationBar a:hover {
+      .navigationBar a:hover:not(.logo) {
         background-color: #880000;
       }
-</style> -->
+</style>
 
 <div class="navigationBar">
-    <a><img src="../images/logo.png" alt="Logo"></a>
-    <a href="#">Test 1</a>
-    <a href="#">Test 2</a>
-    <a href="#">Test 3</a>
+    <a href="../index.html" class="logo"><img src="../images/logo.png" alt="Logo"></a>
+    <a href="#">About Me</a>
+    <a href="#">Projects</a>
+    <a href="../index.html">Home</a>
 </div>

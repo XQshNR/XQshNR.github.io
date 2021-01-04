@@ -5,23 +5,6 @@
 .color-5 {color: #440000;}
 .color-6 {color: #000000;}
 
-.navigationBar {
-  background-color: #440000;
+object{
   width: 100%;
-  display: block;
-  overflow: hidden;
-  position: sticky;
-  position: -webkit-sticky;
-}
-
-.navigationBar a {
-  color: #eecccc;
-  padding: 10px;
-  float: right;
-  text-align: center;
-  text-decoration: none;
-}
-
-.navigationBar a:hover {
-  background-color: #880000;
 }
