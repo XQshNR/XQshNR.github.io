@@ -55,12 +55,6 @@ a:hover, i:hover{
   50% { border-color: #eecccc }
 }
 
-@media only screen and (max-width: 1000px) {
-  .header{
-    display: none;
-  }
-}
-
 .navigationBar {
   background-color: #220000;
   border: solid 5px #660000;
@@ -127,4 +121,26 @@ a:hover, i:hover{
 
 .linkedIn {
   grid-area: 3 / 4 / span 1 / span 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header, .iconDescription{
+    display: none;
+  }
+
+  .pic {
+    grid-area: 1 / 1 / span 5 / span 2;
+  }
+
+  .intro {
+    grid-area: 6 / 1 / span 2 / span 4;
+  }
+
+  .github {
+    grid-area: 2 / 3 / span 1 / span 2;
+  }
+
+  .linkedIn {
+    grid-area: 4 / 3 / span 1 / span 2;
+  }
 }
