@@ -130,7 +130,7 @@ a:hover, i:hover{
   }
 
   .pic {
-    grid-area: 3 / 1 / span 15 / span 4;
+    grid-area: 3 / 1 / span 25 / span 4;
   }
 
   .intro {
