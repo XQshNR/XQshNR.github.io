@@ -92,14 +92,14 @@ a:hover, i:hover{
   color: #eecccc;
 }
 
-.main {
+.mainHome {
   margin: 50px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 50px;
 }
 
-.main i {
+.mainHome i {
   font-size: 60px;
   vertical-align: middle;
 }
@@ -122,6 +122,27 @@ a:hover, i:hover{
 
 .linkedIn {
   grid-area: 3 / 4 / span 1 / span 1;
+}
+
+.project {
+  clear: both;
+  margin: 50px;
+  padding: 10px;
+  text-align: left;
+}
+
+.project img {
+  background-color: #ccaaaa;
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  float: left;
+}
+
+.project h1 {
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
